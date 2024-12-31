@@ -3,163 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-     <link rel="stylesheet" href="estilo.css">
-     <meta name="description" content="Clases particulares online">
-     <link rel="icon" href="./imagenes/nueva.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="estilo.css">
     <title>Apoyo Escolar Virtual</title>
-
-  
 </head>
 <body>
 
-    <nav class="navbar navbar-dark bg-white  fixed-top barra-de-menu container-fluid">
-        <div class="container-fluid">
-           <img src="./imagenes/tit.png" alt="logo" class="img-fluid">  
-          <a class="navbar-brand text-primary saludo" href="index.html">¡Bienvenidos!</a>
-          <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end text-bg-white " style="width: 230px;" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title text-primary" id="offcanvasDarkNavbarLabel">Inicio</h5>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="./imagenes/tit.png" alt="Logo" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#oferta">Oferta Académica</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="hoja2.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="https://www.instagram.com/apoyo_escolar_virtual_/" target="_blank">Instagram</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
             </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
-                <li class="nav-item inicioM">
-                  <a class="nav-link active text-primary" aria-current="page" href="#parte1">Clases Online</a>
-                </li>
-
-                <li class="nav-item inicioM">
-                    <a class="nav-link active text-primary" aria-current="page" href="hoja2.html">Nosotros</a>
-                  </li>
-                <li class="nav-item inicioM">
-                  <a class="nav-link text-primary" href="https://www.instagram.com/apoyo_escolar_virtual_?utm_source=qr&igsh=MWF5bGQ1NXloNmJwMg== " target="_blank">Instagram</a> 
-                </li>
-                <li class="nav-item inicioM">
-                    <a class="nav-link active text-primary" aria-current="page" href="#parte3">Contacto</a>
-                  </li>
-              </ul>
-            </div>
-          </div>
         </div>
-      </nav>
+    </nav>
 
-      <header class="container-fluid">
+    <!-- Carrusel -->
+    <header class="container-fluid">
 
-        <div id="carouselExampleCaptions" class="carousel slide container-fluid">
-          
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./imagenes/overhead-portrait-international-students-waiting-test-college-group-university-mates-sitting-floor-with-books-laptops-doing-homework.jpg" class="d-block w-100 estudiantes" alt="estudiantes">
-                <div class="carousel-caption d-none d-md-block">
-                  
-                </div>
+      <div id="carouselExampleCaptions" class="carousel slide container-fluid">
+        
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./imagenes/overhead-portrait-international-students-waiting-test-college-group-university-mates-sitting-floor-with-books-laptops-doing-homework.jpg" class="d-block w-100 estudiantes" alt="estudiantes">
+              <div class="carousel-caption d-none d-md-block">
+                
               </div>
-
             </div>
 
-    </header>
+          </div>
 
-    <main class="main container-fluid">
-
-        
-        <h2  id="parte1" class="titulo"> Oferta Académica </h2>
-
-        <p class="parrafo text-center text-sm-center">Ofrecemos asistencia académica especializada en una variedad de asignaturas mediante clases online. 
-            Nuestro enfoque está orientado a ofrecer un apoyo personalizado que optimice tu aprendizaje y te ayude a alcanzar tus objetivos educativos.
-            <br>
-            <br>
-            Clases de lunes a viernes de 08:00 a 21:00 horas, modalidad 100% online.
-        </p>
-            
-        
-        <section class="segmento container-fluid">
-
-
-            
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                      <div class="card h-100 ">
-                        <img src="./imagenes/children-holding-their-books-classroom.jpg" class="card-img-top" alt="estudiante">
-                        <div class="card-body">
-                          <h4 class="card-title">Nivel Primario</h4>
-                          <h6>Matemática/Geometría</h6>
-                          <h6>Ciencias Naturales </h6>
-                          <h6>Ciencias Sociales</h6>
-                          <h6>Inglés/Lengua</h6>     
-                        </div>
-                      </div>
+  </header>
+    <!-- Oferta Académica -->
+    <main class="container my-5">
+        <h2 id="oferta" class="text-center text-primary fw-bold mb-4">Oferta Académica</h2>
+        <p class="text-center text-muted">Clases personalizadas 100% online para todos los niveles educativos. Horario: Lunes a viernes, 08:00 a 21:00 horas.</p>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="./imagenes/children-holding-their-books-classroom.jpg" class="card-img-top" alt="Nivel Primario">
+                    <div class="card-body text-center">
+                        <h4 class="card-title text-primary">Nivel Primario</h4>
+                        <p>Matemática, Ciencias Naturales, Sociales, Inglés, Lengua.</p>
                     </div>
-                    <div class="col">
-                      <div class="card h-100">
-                        <img src="./imagenes/group-students-posing-with-notepads.jpg" class="card-img-top" alt="estudiante">
-                        <div class="card-body">
-                          <h4 class="card-title">Nivel Secundario</h4>
-                          <h6>Matemática/Física</h6>
-                          <h6>Biología/Química</h6>
-                          <h6>Inglés/Lengua</h6>
-                          <h6>Historia/Geografía</h6>
-                          <h6>Tecnología/Filosofía</h6>
-                          <h6>Contabilidad/Economía</h6>
-                        </div>
-                      </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="./imagenes/group-students-posing-with-notepads.jpg" class="card-img-top" alt="Nivel Secundario">
+                    <div class="card-body text-center">
+                        <h4 class="card-title text-primary">Nivel Secundario</h4>
+                        <p>Matemática, Física, Biología, Química, Inglés, Lengua, Historia, Geografía, Tecnología, Economía.</p>
                     </div>
-                    <div class="col">
-                      <div class="card h-100">
-                        <img src="./imagenes/good-friends-walking-from-studies-min.jpg" class="card-img-top" alt="estudiante">
-                        <div class="card-body">
-                          <h4 class="card-title">Nivel Universitario</h4>
-                          <h6>Matemática</h6>
-                          <h6>Física</h6>
-                          <h6>Biología</h6>
-                          <h6>Química</h6> 
-                          
-                        </div>
-                      </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="./imagenes/good-friends-walking-from-studies-min.jpg" class="card-img-top" alt="Nivel Universitario">
+                    <div class="card-body text-center">
+                        <h4 class="card-title text-primary">Nivel Universitario</h4>
+                        <p>Matemática, Física, Biología, Química.</p>
                     </div>
+                </div>
+            </div>
+        </div>
 
-        </section>
-
-
-        <section class="segmento2 container-fluid">
-
-
-        <h2 class="titulo2">Educación de Excelencia </h2>
-                      
-        <p class="parraf text-center text-sm-center">“Aplicamos metodologías de enseñanza avanzadas y centradas en el estudiante, diseñadas para estimular la curiosidad, la comprensión profunda y el pensamiento crítico. 
-         Creemos que la educación de excelencia se logra a través de un aprendizaje activo y participativo.”</p>
-
-       
-        </section>
-
+           <section class="segmento2 container-fluid">
+                 <h2 class="titulo2">Educación de Excelencia </h2>
+                 <p class="parraf text-center text-sm-center">“Aplicamos metodologías de enseñanza avanzadas y centradas en el estudiante, diseñadas para estimular la curiosidad, la comprensión profunda y el pensamiento crítico. 
+              Creemos que la educación de excelencia se logra a través de un aprendizaje activo y participativo.”</p>
+          </section>
+      
     </main>
 
-
-
-    
-      <footer class="py-3 my-4 pie mt-3 container-fluid bg-dark" id="parte3">
-
-
-       
-
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-           <li class="nav-item"><a href="https://www.instagram.com/apoyo_escolar_virtual_?utm_source=qr&igsh=MWF5bGQ1NXloNmJwMg== " target="_blank"  class="nav-link px-2 text-body-primary fs-5"id="link">Instagram</a></li>
-           <li class="nav-item"><a href= https://maps.app.goo.gl/JWB2kADeoktAnCH5A class="nav-link px-2 text-body-primary fs-5"id="link">Córdoba Capital</a></li>
-           <li class="nav-item"><a href="https://www.freepik.es/" class="nav-link px-2 text-body-primary fs-5"id="link">Designed by Freepik</a></li>
-         
-        </ul>
-        
-        <p class="text-center text-body-primary pf">© 2024 Developer MV</p>
-      
+    <!-- Footer -->
+    <footer id="contacto" class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                   <a><p class="text-primary">© Developer MV</p></a>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="https://www.instagram.com/apoyo_escolar_virtual_/" target="_blank" class="text-primary me-3 text-decoration-none">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://maps.app.goo.gl/JWB2kADeoktAnCH5A" target="_blank" class="text-primary me-3 text-decoration-none">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+                    <a href="mailto:profesordehistoria33@gmail.com" class="text-primary text-decoration-none">
+                        <i class="bi bi-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    
-   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

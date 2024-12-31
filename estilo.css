@@ -1,28 +1,4 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-    
-}
-
-.barra-de-menu{
-    box-shadow:5px 5px 5px rgb(63, 63, 63);
-     
-}
-.saludo{
-    font-weight: 700;
-}
-.inicioM {
-    margin-bottom:10px;
-    font-size: 20px;
-}
-
-.inicioM:hover{
-text-decoration: underline rgb(83, 173, 206);    
-}
-
+/*
 
 #carouselExampleCaptions{  
   margin-top:145px;
@@ -68,6 +44,51 @@ text-decoration: underline rgb(83, 173, 206);
     box-shadow: 4px 5px 5px rgb(3, 3, 80);
 }
 
+
+
+#link{
+    font-size:20px;
+    margin-left:15px;
+    
+}
+
+.pf{
+    color:white;
+}
+
+*/
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carousel img {
+    height: 400px;
+    object-fit: cover;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.card {
+    border: none;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
 .segmento2{
     margin-top: 40px;
     margin-bottom: 70px;
@@ -97,13 +118,8 @@ text-decoration: underline rgb(83, 173, 206);
 }
 
 
-#link{
-    font-size:20px;
-    margin-left:15px;
-    
-}
 
-.pf{
-    color:white;
-}
 
+footer {
+    font-size: 0.9rem;
+}
