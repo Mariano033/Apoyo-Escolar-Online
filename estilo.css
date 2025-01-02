@@ -61,16 +61,22 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
+    padding-top :70px ;
 }
 
 .navbar {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1050;
+    position: fixed;
+    width: 100%;
 }
 
 .carousel img {
-    height: 400px;
+    height: 500px;
+   
+    width: 60%;
     object-fit: cover;
-}
+    object-position:top}
 
 h2 {
     font-size: 2rem;
@@ -89,37 +95,46 @@ h2 {
     font-size: 1.25rem;
 }
 
-.segmento2{
+/* Segmento Educación de Excelencia */
+.segmento2 {
     margin-top: 40px;
     margin-bottom: 70px;
-    
-}
-
-.titulo2{
-    
     text-align: center;
-    margin-bottom: 2rem;
-    font-size: 18px;
-    font-weight: 700;
-
-
 }
 
-.parraf{
+.titulo2 {
+    margin-bottom: 1.5rem;
+    font-size: 24px; /* Aumenté el tamaño */
+    font-weight: bold;
+    color: #007bff; /* Color armónico con la temática */
+    
+    font-family: 'Georgia', serif;
+}
+
+.parraf {
     width: 100%;
-    background-color: rgb(90, 90, 90);
-    color: white;
-    font-size:16px;
-    font-weight: 600;
-    margin-bottom: 8rem;
-    font-style: italic;
-    padding:5%;
-    font-weight: 500;
+    background-color: #3a3a3a;
+    color: #f8f9fa; /* Texto más legible */
+    font-size: 18px; /* Incrementé el tamaño */
+    font-style: normal; /* Eliminé el estilo cursivo */
+    padding: 3%;
+    line-height: 1.8;
+    font-family: 'Georgia', serif; /* Fuente armónica */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-
-
-
+/* Footer */
 footer {
-    font-size: 0.9rem;
+    font-size: 1rem; /* Ajusté el tamaño */
+    text-align: center;
+}
+
+footer .bi {
+    font-size: 1.5rem; /* Aumenté el tamaño de los íconos */
+    transition: transform 0.2s ease;
+}
+
+footer .bi:hover {
+    transform: scale(1.2); /* Animación al pasar el cursor */
 }
